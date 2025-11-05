@@ -14,6 +14,8 @@
 
 ### Project Overview
 
+---
+
 A Power BI project for Real Estate and Property Management showcasing insights on property conditions, renovations, waterfront status, and construction year. Interactive dashboard enable filtering by year and location, helping stakeholders analyze property performance, occupancy trends, and maintenance priorities efficiently.
 
 <img width="890" height="505" alt="RealEstate_Property_Mngnt_Dashboard_Overview" src="https://github.com/user-attachments/assets/f3f8a4b5-ad86-4189-ad21-e017e6f4d7e5" />
