@@ -2,8 +2,15 @@
 
 ## Table Of Contents
 
-- [Project Overview](#project-overview)
-- [Recommendations]
+- Project Overview
+- Data Sources
+- Tools
+- Data Cleaning/Data Preparation
+- Exploratory Data Analysis
+- Data Analysis
+- Results/Findings
+- Recommendations
+- Limitations
 
 ### Project Overview
 
