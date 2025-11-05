@@ -16,6 +16,16 @@
 
 A Power BI project for Real Estate and Property Management showcasing insights on property conditions, renovations, waterfront status, and construction year. Interactive dashboard enable filtering by year and location, helping stakeholders analyze property performance, occupancy trends, and maintenance priorities efficiently.
 
+<img width="890" height="505" alt="RealEstate_Property_Mngnt_Dashboard_Overview" src="https://github.com/user-attachments/assets/f3f8a4b5-ad86-4189-ad21-e017e6f4d7e5" />
+
+
+
+
+
+<img width="892" height="504" alt="RealEstate_Property_Mngnt_Dashboard_Details" src="https://github.com/user-attachments/assets/b5e6b1bd-c201-4c72-86eb-0aee1f293823" />
+
+
+
 ### Data Sources
 
 Housing Dataset:The primary dataset used for this analysis is the "Housing Dataset.xlsx",which contains the detailed information about the properties.
@@ -57,10 +67,17 @@ EDA involved exploring the Housing Dataset to answer key questions, such as:
 ### Data Analysis
 
 Worked with some DAX queries:
+- Total Properties = COUNTROWS('Fact Table')
+- Very Good Condition = CALCULATE([Total Properties],FILTER('Dim_Condition Status','Dim_Condition Status'[Condition Status]="Very Good"))
+- Renovated = CALCULATE([Total Properties],FILTER('Dim_Renovated Status','Dim_Renovated Status'[Renovated Status]="Renovated"))
+- Not Renovated = CALCULATE([Total Properties],FILTER('Dim_Renovated Status','Dim_Renovated Status'[Renovated Status]="Not Renovated"))
+- Have Waterfront = CALCULATE([Total Properties],FILTER('Dim_Waterfront Status','Dim_Waterfront Status'[Waterfront Status]="Yes"))
+- No Waterfront = CALCULATE([Total Properties],FILTER('Dim_Waterfront Status','Dim_Waterfront Status'[Waterfront Status]="No"))
+- Good Condition = CALCULATE([Total Properties],FILTER('Dim_Condition Status','Dim_Condition Status'[Condition Status]="Good"))
+- Bad Condition = CALCULATE([Total Properties],FILTER('Dim_Condition Status','Dim_Condition Status'[Condition Status]="Bad"))
+- % of waterfront status yes = DIVIDE([Have Waterfront],[Total Properties],0)
+- % of waterfront status no = DIVIDE([No Waterfront],[Total Properties],0)
 
-'''
-
-'''
 
 ### Results/Findings
 
