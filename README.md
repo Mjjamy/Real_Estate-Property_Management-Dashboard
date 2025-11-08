@@ -1,17 +1,20 @@
 # Real Estate and Property Management Analysis
 
-## Table Of Contents
 
-- Project Overview
-- Data Sources
-- Tools
-- Data Cleaning/Data Preparation
-- Exploratory Data Analysis
-- Data Analysis
-- Results/Findings
-- Recommendations
-- Limitations
+## 📚 Table of Contents
 
+1. [Project Overview](#project-overview)
+2. [Data Sources](#data-sources)
+3. [Tools](#tools)
+4. [Data Cleaning](#data-cleaning)
+5. [Exploratory Data Analysis](#exploratory-data-analysis)
+6. [Data Analysis](#data-analysis)
+7. [Results](#results)
+8. [Recommendations](#recommendations)
+9. [Limitations](#limitations)
+
+
+---
 ### Project Overview
 
 ---
@@ -36,7 +39,7 @@ Housing Dataset:The primary dataset used for this analysis is the "Housing Datas
 
 - POWER BI (Data Cleaning, Data Analysis, Creating Reports)
 
-### Data Cleaning/Data Preparation
+### Data Cleaning
 
 In the initial data preparation phase, we performed the following tasks:
 
@@ -81,7 +84,7 @@ Worked with some DAX queries:
 - % of waterfront status no = DIVIDE([No Waterfront],[Total Properties],0)
 
 
-### Results/Findings
+### Results
 
 The analysis results are summarized as follows:
 
